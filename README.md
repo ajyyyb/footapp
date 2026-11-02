@@ -1,17 +1,18 @@
 # footapp
 
-A new Flutter project.
+A Flutter UI prototype of an ordering app; the sample offer is a "Monthly Dinner".
 
-## Getting Started
+## What is in it
 
-This project is a starting point for a Flutter application.
+- A home screen with a bottom navigation bar: Home, Favorites, Cart and Profile.
+- A detail page for an offer ("Monthly Dinner") with an image, a description and a "buy now" button.
+- Product pictures are in `assets/images`.
 
-A few resources to get you started if this is your first Flutter project:
+Favorites, Cart and Profile are placeholders for now; this is a layout practice project, not a finished app.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Run it
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# footapp
+```bash
+flutter pub get
+flutter run
+```
