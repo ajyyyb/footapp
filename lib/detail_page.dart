@@ -153,9 +153,7 @@ class DetailPage extends StatelessWidget {
               
             },
           ),
-          Container(
-            child: Text(1.toString(), style: TextStyle(color: Colors.white, fontSize: 16)),
-          ),
+          Text(1.toString(), style: TextStyle(color: Colors.white, fontSize: 16)),
           IconButton(
             padding: EdgeInsets.zero,
             constraints: BoxConstraints(),
